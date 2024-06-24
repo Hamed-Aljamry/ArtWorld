@@ -1,0 +1,13 @@
+@import "config/colors";
+
+.nav-container {
+  margin: auto;
+  font-size: x-large;
+  color: $myYellow;
+  background-color: #000000;
+  border-bottom: 1px solid $myYellow;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
