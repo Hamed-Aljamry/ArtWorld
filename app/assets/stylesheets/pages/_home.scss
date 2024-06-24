@@ -2,8 +2,16 @@
 @import "config/colors";
 
 .banner-container {
-  margin-top: 3%;
+  // margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   color: whitesmoke;
+}
+.banner-container h2 {
+margin: auto;
+padding: 10px;
+}
+.carousel-container {
+  margin: auto;
 }
