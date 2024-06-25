@@ -1,8 +1,16 @@
 <div class="nav-container">
   <%= link_to "Home", root_path, class: "nav-link" %>
-  <h2>Discover</h2>
-  <h2>Artists</h2>
-  <h2>Categories</h2>
-  <h2>Sell-Art</h2>
-  <h2>Messages</h2>
+  <a href="#">Discover</a>
+  <a href="#">Artists</a>
+  <a href="#">Categories</a>
+  <a href="#">Sell-Art</a>
+  <a href="#">Messages</a>
+  <li class="nav-item dropdown">
+    <img class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://media.licdn.com/dms/image/D4D03AQHioJgS1YeZMA/profile-displayphoto-shrink_400_400/0/1714124989458?e=1724889600&v=beta&t=w_gbBjAAIW3I9yUAtbRe5uJYnhGujPUBtWkZpMs1ei0" />
+    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
+    </div>
+  </li>
 </div>
