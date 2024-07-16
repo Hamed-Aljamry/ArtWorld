@@ -13,6 +13,21 @@
 }
 
 // Dropdown styling ****
+
+.dropdown button {
+  background-color: #000000;
+  color: $myYellow;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  transition: 300ms ease-in;
+  color: black;
+  background-color: $myYellow;
+}
+
 .nav-container li {
   list-style-type: none;
   display: inline;

@@ -1,8 +1,26 @@
 <div class="nav-container">
   <%= link_to "Home", root_path, class: "nav-link" %>
-  <a href="#">Discover</a>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="categoriesDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Discover
+    </button>
+    <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
+      <a class="dropdown-item" href="#">Category 1</a>
+      <a class="dropdown-item" href="#">Category 2</a>
+      <a class="dropdown-item" href="#">Category 3</a>
+    </div>
+  </div>
   <a href="#">Artists</a>
-  <a href="#">Categories</a>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="categoriesDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Categories
+    </button>
+    <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
+      <a class="dropdown-item" href="#">Category 1</a>
+      <a class="dropdown-item" href="#">Category 2</a>
+      <a class="dropdown-item" href="#">Category 3</a>
+    </div>
+  </div>
   <a href="#">Sell-Art</a>
   <a href="#">Messages</a>
   <li class="nav-item dropdown">

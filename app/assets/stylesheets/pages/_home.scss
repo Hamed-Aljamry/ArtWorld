@@ -37,6 +37,10 @@ padding: 10px;
   padding: 10px;
 }
 
+.cards p {
+  padding: 18%;
+}
+
 .card-category {
   background-size: cover;
   background-position: center;
@@ -89,3 +93,9 @@ padding: 10px;
 }
 
 // *****************
+
+.info-container i {
+  color: yellow;
+  font-size: 35px;
+  padding: 10px;
+}
