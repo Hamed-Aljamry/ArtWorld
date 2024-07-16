@@ -33,12 +33,12 @@ padding: 10px;
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 65px;
+  grid-gap: 75px;
   padding: 10px;
 }
 
 .cards p {
-  padding: 18%;
+  padding: 25%;
 }
 
 .card-category {
@@ -54,7 +54,7 @@ padding: 10px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width: 180px;
+  // width: 180px;
 }
 
 // Smallest device
