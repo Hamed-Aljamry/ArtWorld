@@ -1,0 +1,54 @@
+@import "config/colors";
+
+.nav-container {
+  margin: auto;
+  font-size: x-large;
+  color: $myYellow;
+  background-color: #000000;
+  border-bottom: 1px solid $myYellow;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+// Dropdown styling ****
+
+.dropdown button {
+  background-color: #000000;
+  color: $myYellow;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  transition: 300ms ease-in;
+  color: black;
+  background-color: $myYellow;
+}
+
+.nav-container li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 1rem;
+}
+.nav-container a:hover {
+  transition: 300ms ease-in;
+  color: black;
+  background-color: $myYellow;
+}
+.nav-container a {
+  text-decoration: none;
+  color: $myYellow;
+  background-color: #000000;
+}
+
+.dropdown-menu {
+background-color: black;
+border: 1px solid $myYellow;
+}
+
+
+
+// ****
