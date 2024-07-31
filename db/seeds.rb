@@ -7,3 +7,17 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+
+puts "cleaning database"
+Artwork.destroy_all
+User.destroy_all
+puts "database cleaned"
+
+puts "creating Artworks"
+
+user = User.create!(email: "test@test.com", password: "123456")
+Artwork.create!(category: "Painting", description: "A beautiful painting", title: "The Starry Night", artist: "Vincent van Gogh", user_id: user.id)
+
+
+puts "Artworks created"
