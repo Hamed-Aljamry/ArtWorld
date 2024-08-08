@@ -2,7 +2,10 @@
   <div class="artwork">
     <h2><%= artwork.title %></h2>
     <p><%= artwork.description %></p>
+    <%= image_tag(artwork.photo, width: 400, height: 300, crop: :fill) %>
   </div>
   <% end %>
-<%= cl_image_tag("",
+
+
+<%# <%= cl_image_tag('https://images.ctfassets.net/az3stxsro5h5/24L2UM6hV3m4csMvBzkHbj/9d4583541bdb29ae0c6a9ff2b60f1313/After.jpeg?w=2389&h=2986&fl=progressive&q=50&fm=jpg',
       width: 400, height: 300, crop: :fill) %>

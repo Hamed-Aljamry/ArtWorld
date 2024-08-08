@@ -17,7 +17,7 @@ puts "database cleaned"
 puts "creating Artworks"
 
 user = User.create!(email: "test@test.com", password: "123456")
-Artwork.create!(category: "Painting", description: "A beautiful painting", title: "The Starry Night", artist: "Vincent van Gogh", user_id: user.id)
+Artwork.create!(category: "Painting", description: "A beautiful painting", title: "The Starry Night", artist: "Vincent van Gogh", photo: "https://images.ctfassets.net/az3stxsro5h5/24L2UM6hV3m4csMvBzkHbj/9d4583541bdb29ae0c6a9ff2b60f1313/After.jpeg?w=2389&h=2986&fl=progressive&q=50&fm=jpg", user_id: user.id)
 
 
 puts "Artworks created"
